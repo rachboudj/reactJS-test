@@ -1,0 +1,29 @@
+/* ---------- Le header ---------- */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+  }
+  
+  header .logo {
+    width: 10%;
+  }
+  
+  header .logo img {
+    width: 100%;
+  }
+  
+  header nav {
+    width: 60%;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
+  header nav ul li a {
+    font-size: 0.8em;
+  }

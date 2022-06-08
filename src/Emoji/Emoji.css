@@ -1,0 +1,29 @@
+/* ---------- Les émojis ---------- */
+.emoji {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .emoji ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .emoji ul li{
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  .emoji ul li:nth-child(2){
+    margin: 0 2em;
+  }
+  
+  .emoji ul li button{
+    border: none;
+    background-color: transparent;
+    font-size: 2em;
+  }

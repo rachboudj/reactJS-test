@@ -1,0 +1,1 @@
+Créer un composant footer qui devra afficher le nom de votre compagnie et le logo copyright.

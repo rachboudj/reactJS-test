@@ -1,0 +1,9 @@
+.produit {
+    background-color: #f00;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+}
