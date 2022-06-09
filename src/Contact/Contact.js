@@ -1,15 +1,18 @@
 import React from "react";
 import { useState } from "react";
 
+import './Contact.css';
+
 function Contact() {
 
     const [name, setName] = useState("");
     const [prenom, setPrenom] = useState("");
     const [email, setEmail] = useState("");
 
-    const validation = (event) => (
-        alert(`Votre prénom est : ${prenom}`)
-    );
+    const validation = (event) => {
+      event.preventDefault();
+        alert(`Vous êtes : ${prenom} ${name} , votre email est : ${email}`)
+      };
 
     console.log("name :", name);
     console.log("prenom :", prenom);
@@ -17,8 +20,8 @@ function Contact() {
 
   return (
     <div className="contact">
-      <h1>C'est la page contact</h1>
-      <form>
+      <h2>C'est la page contact</h2>
+      <form onSubmit={validation}>
         <label>
           Nom :
           <input 
@@ -41,7 +44,7 @@ function Contact() {
           onChange={(element)=> setEmail(element.target.value)} />
         </label>
           <input 
-          type="button" />
+          type="submit" />
       </form>
     </div>
   );
