@@ -1,15 +1,16 @@
-.titre-objetco {
-    margin-top: 10em;
-    text-align: center;
-}
-
 .container-card-product {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin: 2em auto 10em auto;
+    margin: 10em auto 10em auto;
     width: 100%;
+}
+
+.container-card-product h2 {
+    width: 100%;
+    text-align: center;
+    margin: 2em 0;
 }
 
 .container-card-product figure {

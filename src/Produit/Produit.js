@@ -69,6 +69,8 @@ export default function Produit() {
             avis={produit.avis}
             />
     ))
-    return     <><div className="titre-objetco"><h2>Objets connectés</h2></div><div className='container-card-product'>
-      {listeProduits}</div></>;
+    return  (   
+    <div className='container-card-product'><h2>Objets connectés</h2>
+      {listeProduits}</div>
+      );
 }
