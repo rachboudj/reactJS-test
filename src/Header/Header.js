@@ -1,5 +1,8 @@
+import React from 'react'; 
+
 import './Header.css';
 import logo from '../logo.svg';
+import { Outlet } from 'react-router-dom';
 
 export default function Header() {
     return (
@@ -9,11 +12,13 @@ export default function Header() {
             </div>
             <nav>
                 <ul className='menuHeader'>
-                    <li><a href="">Lien 1</a></li>
-                    <li><a href="">Lien 2</a></li>
-                    <li><a href="">Lien 3</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/message">Message</Link></li>
+                    <li><Link to="/produit">Produit</Link></li>
+                    
                 </ul>
             </nav>
+            <Outlet /> {/* Pour que la page ne recharge pas */}
         </header>
     )
 };
