@@ -1,0 +1,41 @@
+.container-card-product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-card-product figure {
+    width: 50%;
+    padding: 2em;
+    border-radius: 5px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px 0px #61dafb;
+}
+
+.container-card-product figure:hover {
+    box-shadow: 0px 0px 0px #61dafb;
+}
+
+.container-card-product figure img {
+    width: 100%;
+}
+
+.container-card-product figure figcaption h3 {
+    color: #61dafb;
+    margin-top: 1em;
+}
+
+.container-card-product figure figcaption p {
+    margin-top: 0.2em;
+}
+
+.container-card-product figure figcaption h4 {
+    margin-top: 0.2em;
+}
+
+.container-card-product figure figcaption h5 {
+    margin-top: 0.2em;
+}
