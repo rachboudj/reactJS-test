@@ -60,7 +60,6 @@ const produits = [
 
 export default function Produit() {
     const listeProduits = produits.map((produit) => (
-        <div className="container-card-product">
         <CardProduit 
             key={produit.id}
             image={produit.image}
@@ -69,7 +68,7 @@ export default function Produit() {
             description={produit.description}
             avis={produit.avis}
             />
-        </div>
     ))
-    return listeProduits;
+    return     <><div className="titre-objetco"><h2>Objets connectés</h2></div><div className='container-card-product'>
+      {listeProduits}</div></>;
 }
