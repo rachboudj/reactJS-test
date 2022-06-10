@@ -2,14 +2,20 @@
 // import Emoji from '../Emoji/Emoji';
 // import Produit from '../Produit/Produit';
 // import Message from '../Message/Message';
-// import Contenu from '../Contenu/Contenu';
+import Contenu from '../Contenu/Contenu';
 // import Footer from '../Footer/Footer';
 
 // Le CSS général
 import './App.css';
 
 const App = () => {
-  return <h1>Bienvenue en Reactie</h1>;
+  return (
+    <>
+      <h1>Bienvenue en Reactie</h1>
+      <Contenu />
+    </>
+    
+    )
 }
 
 export default App;

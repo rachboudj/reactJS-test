@@ -24,10 +24,21 @@
     outline: none;
 }
 
-.contact form input:nth-child(4) {
+.contact form select {
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    outline: none;
+    width: 30%;
+}
+
+.contact form input:nth-child(6) {
     width: max-content;
     border: none;
     padding: 1em;
-    background-color: paleturquoise;
+    background-color: #61dafb;
+    color: #fff;
     cursor: pointer;
+    border-radius: 5px;
 }
